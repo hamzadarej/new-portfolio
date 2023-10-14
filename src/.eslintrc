@@ -1,0 +1,49 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "settings": {
+    "react": {
+      "version": "17"
+    }
+  },
+  "globals": {
+    "_gaq": "readonly",
+    "$": "readonly",
+    "C24M": "readonly",
+    "Check24": "readonly",
+    "C24App": "readonly",
+    "C24SpsClient": "readonly"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "plugins": ["react", "react-hooks", "prettier"],
+  "rules": {
+    "prettier/prettier": 2,
+    "prefer-arrow-callback": 2,
+    "prefer-template": 2,
+    "no-console": 1,
+    "react/jsx-filename-extension": 2,
+
+    // should be enabled asap
+    "react-hooks/rules-of-hooks": 0,
+    "react-hooks/exhaustive-deps": 0,
+    // currently annoying with storybook default export
+    "import/no-anonymous-default-export": 0,
+
+    "codeceptjs/no-exclusive-tests": 0,
+    // React import is not needed anymore
+    "react/react-in-jsx-scope": 0
+  }
+}
