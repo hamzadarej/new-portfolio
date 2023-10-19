@@ -1,7 +1,7 @@
-import { Link, useLocation, useParams } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import cn from 'classnames';
 const Navbar = () => {
-  const headerLinks = ['AboutMe', 'Home', 'Contact'];
+  const headerLinks = ['AboutMe', 'Home', 'Skills'];
   const location = useLocation();
 
   return (
