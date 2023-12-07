@@ -4,7 +4,6 @@ const Navbar = () => {
   const headerLinks = ['AboutMe', 'Home', 'Skills'];
   const location = useLocation();
   const pathName = location.pathname.replace('/', '');
-
   // return if path not one of headerLinks
   if (!headerLinks.includes(pathName)) {
     return;

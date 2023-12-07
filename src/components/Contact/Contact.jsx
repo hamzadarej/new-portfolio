@@ -45,8 +45,14 @@ const Contact = () => {
       </div>
       {/*//footer email me*/}
       <div className="flex items-center justify-center min-h-[9rem] rounded-2xl flex-col gap-2">
-        <button className="bg-sky-500 py-2 px-10 rounded-2xl text-white hover:bg-sky-400">Email me</button>
-        <a download className="text-sky-500 hover:text-sky-400 cursor-pointer text-[12px]">
+        <a href="mailto:darejhamza@gmail.com" className="bg-sky-500 py-2 px-10 rounded-2xl text-white hover:bg-sky-400">
+          Email me
+        </a>
+        <a
+          href="/CV.pdf"
+          download="Hamza_darej_cv.pdf"
+          className="text-sky-500 hover:text-sky-400 cursor-pointer text-[12px]"
+        >
           DownLoad My CV
         </a>
       </div>
