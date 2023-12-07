@@ -4,7 +4,7 @@ import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = () => {
   return (
-    <div className="w-[20vw] border border-amber-100 border-solid rounded-2xl flex-col h-[68vh] bg-white">
+    <div className="max-w-[20vw] min-w-fit border border-amber-100 border-solid rounded-2xl flex-col h-[68vh] bg-white">
       {/*//header*/}
       <div className="flex flex-col items-center my-9 space-y-6">
         <img className="w-20 h-[6rem]" src={'/vite.svg'} alt={'vite-image'} />
@@ -23,7 +23,7 @@ const Contact = () => {
       </div>
       {/*//deatils*/}
       <div className="text-center bg-gray-50 py-2">
-        <div className="flex flex-col mx-20 space-y-5 px-3 py-3 items-start border-gray-400">
+        <div className="flex flex-col mx-20 space-y-5  justify-center py-3 items-start border-gray-400">
           <span className="flex-row flex text-sm space-x-2.5 w-full">
             <FontAwesomeIcon icon={faCalendarCheck} color="gray" size="xl" />
             <p>September 17, 1993</p>
@@ -44,9 +44,9 @@ const Contact = () => {
         </div>
       </div>
       {/*//footer email me*/}
-      <div className="flex items-center justify-center h-[9rem] rounded-2xl flex-col gap-2">
+      <div className="flex items-center justify-center min-h-[9rem] rounded-2xl flex-col gap-2">
         <button className="bg-sky-500 py-2 px-10 rounded-2xl text-white hover:bg-sky-400">Email me</button>
-        <a download className="text-sky-500 hover:text-sky-400 cursor-pointer">
+        <a download className="text-sky-500 hover:text-sky-400 cursor-pointer text-[12px]">
           DownLoad My CV
         </a>
       </div>
