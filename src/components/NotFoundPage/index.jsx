@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const NotFoundPage = () => {
   return (
-    <div className="flex flex-col items-center justify-center space-y-5 h-full">
+    <div className="flex flex-col items-center justify-center space-y-5 h-[60vh]">
       <h1 className="text-red-700 font-bold">pageNotFound</h1>
       <Cogs />
 
