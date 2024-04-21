@@ -4,9 +4,9 @@ import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = () => {
   return (
-    <div className="max-w-[20vw] min-w-fit border border-amber-100 border-solid rounded-2xl flex-col h-[68vh] bg-white">
+    <div className="max-w-[20vw] min-w-fit flex justify-between border border-amber-100 space-y-6 border-solid rounded-2xl flex-col sm:min-h-[78vh] bg-white">
       {/*//header*/}
-      <div className="flex flex-col items-center my-9 space-y-6">
+      <div className="flex flex-col justify-between h-full items-center py-8 rounded-2xl space-y-2">
         <img className="w-20 h-[6rem]" src={'/vite.svg'} alt={'vite-image'} />
         <h1 className="text-xl">
           Hamza <strong>Darej</strong>
@@ -22,7 +22,7 @@ const Contact = () => {
         </span>
       </div>
       {/*//deatils*/}
-      <div className="text-center bg-gray-50 py-2">
+      <div className="text-center bg-gray-50">
         <div className="flex flex-col mx-20 space-y-5  justify-center py-3 items-start border-gray-400">
           <span className="flex-row flex text-sm space-x-2.5 w-full">
             <FontAwesomeIcon icon={faCalendarCheck} color="gray" size="xl" />

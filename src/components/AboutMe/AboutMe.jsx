@@ -31,7 +31,7 @@ const AboutMe = () => {
 
   return (
     <div className="bg-white flex-col flex justify-between rounded-2xl">
-      <p className="mt-3 mb-2 mx-1">
+      <p className="mt-3 mb-2 mx-8">
         I describe my self as somone whos persiastant, a quik lerner and loves probem solving by using simple and
         scrable solutions.
       </p>

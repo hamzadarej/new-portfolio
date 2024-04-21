@@ -16,7 +16,7 @@ const Navbar = () => {
           <Link
             to={link}
             className={cn(
-              `decoration-0 flex max-w-[5rem] items-center justify-center w-full space-x-1  rounded-2xl p-1 border border-solid bg-text-sky-600`,
+              `decoration-0 flex max-w-[5rem] items-center justify-center w-full space-x-1  rounded-2xl p-1 border border-solid border-gray-700 bg-text-sky-600`,
               {
                 'bg-sky-500': pathName === link,
               },

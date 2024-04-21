@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="border-box sm:flex-row m-auto h-auto sm:h-[100vh] flex flex-col items-center justify-center bg-gradient-to-r from-gray-600 to-gray-200 gap-10">
       <Contact />
-      <div className="w-full border border-amber-100 border-solid border-box rounded-2xl sm:max-w-[50rem] sm:px-0 px-3 max-w-[20rem] sm:h-[68vh] bg-white">
+      <div className="w-full border border-amber-100 border-solid border-box rounded-2xl sm:max-w-[50rem] sm:px-0 px-3 max-w-[20rem] sm:min-h-[78vh] bg-white">
         <Navbar />
         <Routes>
           <Route path="/AboutMe" element={<AboutMe />} />
