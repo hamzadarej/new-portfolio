@@ -7,7 +7,7 @@ const Contact = () => {
     <div className="max-w-[20vw] min-w-fit flex justify-between border border-amber-100 space-y-6 border-solid rounded-2xl flex-col sm:min-h-[78vh] bg-white">
       {/*//header*/}
       <div className="flex flex-col justify-between h-full items-center py-8 rounded-2xl space-y-2">
-        <img className="w-20 h-[6rem]" src={'/vite.svg'} alt={'vite-image'} />
+        <img className="w-20 h-[6rem]" src={'./public/vite.svg'} alt={'vite-image'} />
         <h1 className="text-xl">
           Hamza <strong>Darej</strong>
         </h1>
